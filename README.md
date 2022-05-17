@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+### MODULE - 71
+- create react app
+- install react router dom
+- install tailwind css for react ( npm install -D tailwindcss postcss autoprefixer )
+- tailwind component library daisyui
+- make the full homepage layout
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### MODULE - 72
+- Appointment Page
+- install react day picker for calender
+- set appointment page fully
+- intialize server codes
+- install npm i express cors dotenv mongodb jsonwebtoken
+- configure mongodb and fetch data from serviceCollections
 
-## Available Scripts
 
-In the project directory, you can run:
+### MODULE - 73
+- confirgure firebase , create project and enable authentication and add methods for sign in
+- setup app and install firebase in client side npm install firebase
+- install firebase hooks npm install --save react-firebase-hooks
+- create firebase.init.js and .env.local and configure it
+- configure social login google
+- install react hook form for login form npm install react-hook-form
+- configure sign up and login system
+- REQUIRE AUTH and private route configure
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### MODULE - 74
+- make bookingData in handle Submit after booking modal in appointment
+- make api in server side for storing booking data
+- ##### API Naming Convension
+    - `app.get('/booking')` Get All bookings or by filter
+    - `app.get('/booking/:id')` Get a specific booking
+    - `app.post('/booking')` add a new booking
+    - `app.patch('/booking/:id')` update a booking
+    - `app.put('/booking/:id')` update a booking or insert
+    - `app.delete('/booking/:id')` delete a booking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- install react query `npm i react-query`
+- use react query in availableappointments page 
+- 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### MODULE - 75
+-  create a PUT API for storing user or creating user
+-  useToken hooks setup for updating user in mongodb usercollection via PUT API
